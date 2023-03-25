@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "packageManager": "pnpm@7.30.3",
+  "workspaces": [
+    "packages/*",
+    "example/*"
+  ],
+  "scripts": {
+  },
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "vite",
+        "react",
+        "react-dom"
+      ]
+    }
+  }
+}
